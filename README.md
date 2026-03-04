@@ -58,6 +58,7 @@ The script will train the model and create FINAL.csv with all the predictions.
 ## Results
 
 Got about 97.75% validation accuracy and ~97.5% on cross-validation. Used Random Forest with 200 trees, max depth of 20.
+The dataset was checked for class imbalance and found to have a 60/40 distribution (Normal/Faulty), which is reasonably balanced. Therefore, accuracy is a reliable evaluation metric in this case.  
 
 ## Libraries Used
 
@@ -72,7 +73,6 @@ If I had more time, I'd try:
 - Doing more hyperparameter tuning
 - Feature engineering or selection
 - Maybe try a neural network
-- Better handling of class imbalance if there is any
 
 ## Note
 
